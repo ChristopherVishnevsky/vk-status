@@ -13,4 +13,4 @@ while True:
     time.sleep(60)
     user = vk.account.getCounters(filter='friends, messages')
     getMSGtime = user['messages']
-    vk.status.set(text='💍Всегда онлайн :).\n📖Непрочитанных сообщений: ' + str(getMSGtime) + '\nВсе будет прочитано')
+    vk.status.set(text="Always online. Unread messages: " + str(getMSGtime))
